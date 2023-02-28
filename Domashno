@@ -1,0 +1,23 @@
+  Console.WriteLine("Vuvedete chislo ot 1 do 7");
+            int number = int.Parse(Console.ReadLine());
+            switch (number)
+                {
+                case 1:
+                    Console.WriteLine("Tova e Ponedelnik i prekarvame po 6 chasa na uchilishte");
+                    break;
+                case 2:
+                    Console.WriteLine("Tova e Vtornik i prekarvame po 8 chasa na uchilishte");
+                    break;
+                case 3:
+                    Console.WriteLine("Tova e Srqda i prekarvame po 7 chasa na uchilishte");
+                    break;
+                case 4:
+                    Console.WriteLine("Tova e Chetvurtuk i prekarvame po 6 chasa na uchilishte");
+                    break;
+                case 5:
+                    Console.WriteLine("Tova e Petuk i prekarvame po 6 chasa na uchilishte");
+                    break;
+                    case 6 & 7:
+                        Console.WriteLine("Tova sa Subota i Nedelq i nqmame uchilishte");
+                    break;
+}
